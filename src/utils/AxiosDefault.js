@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const instance = axios.create({
-    baseURL: 'http://localhost:8000/api',
+    baseURL: 'http://175.197.4.226:31845/api',
     timeout: 2500
 });
 

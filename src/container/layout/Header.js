@@ -8,7 +8,8 @@ export default function Header(){
 
     return (
         <HeaderWrapper>
-            <MenuItem><MenuLink to='/ml'>ML</MenuLink></MenuItem>
+            <MenuItem><MenuLink to='ml'>ML</MenuLink></MenuItem>
+            <MenuItem><MenuLink to='sign-up'>sign-up</MenuLink></MenuItem>
             <SearchWrapper>
                 <InputText type="text" placeholder='검색어를 입력하세요'></InputText>
             </SearchWrapper>

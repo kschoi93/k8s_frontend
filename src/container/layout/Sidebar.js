@@ -6,7 +6,6 @@ import styled from 'styled-components';
 export default function Sidebar(){
     return (
         <SidebarWrapper>
-            <MenuItem><MenuLink to='sign-in'>sign-in</MenuLink></MenuItem>
             <MenuItem><MenuLink to='sign-up'>sign-up</MenuLink></MenuItem>
         </SidebarWrapper>
     );
