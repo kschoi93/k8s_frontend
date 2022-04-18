@@ -10,10 +10,9 @@ export default function App() {
   return (
     <>
       <Header />
-      <Section>
-        <Sidebar />
-        <Outlet />
-      </Section>
+        <Section>
+          <Outlet />
+        </Section>
       <Footer />
     </>
   );
